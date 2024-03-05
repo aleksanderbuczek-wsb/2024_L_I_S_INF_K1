@@ -7,10 +7,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
-  $ python3 -m venv .venv
+  $ python -m venv .venv
 
   # aktywowanie hermetycznego środowiska
-  $ source .venv/bin/activate
+  $ source .venv/Source/activate
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
@@ -48,7 +48,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ...
 
   # aktywacja 
-  $ source .venv/bin/activate
+  $ source .venv/Source/activate
   ```
 
 - Integracja z TravisCI:
